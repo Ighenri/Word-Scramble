@@ -112,7 +112,15 @@ body{
     .container{
         width: 390px;
        
+       
+    }
+    .word{
+        font-size: 25px;
+        letter-spacing: 10px;
     }
     
+    .details p{
+        font-size: 14px;
+    }
 }
 
