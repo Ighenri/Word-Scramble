@@ -19,17 +19,13 @@ body{
     background-color: aliceblue;
     width: 450px;
     padding: 10px 15px;
+    
 }
 .container .content{
     margin: 25px 20px 35px;
-}
-/* .container h2{
-    font-size: 25px;
-    font-weight: 500;
-    padding: 18px 20px;
-    border-bottom: 1px solid rgb(182, 174, 174);
     
-} */
+}
+
 
 .word{
     text-align: center;
@@ -38,6 +34,7 @@ body{
     letter-spacing: 24px;
     margin-right: -24px;
     text-transform: uppercase;
+
 }
 
 .content .details{
@@ -90,3 +87,4 @@ body{
 .buttons .check-word{
     background-color: rgb(63, 133, 133);
 }
+
