@@ -113,14 +113,25 @@ const words = [
         word: "library",
         hint: "Place containing collection of books"
     },
+
+    {
+        word: "sapa",
+        hint: "Moment of lack of finance"
+    },
+
+    {
+        word: "strike",
+        hint: "Shutdown of public Universities"
+    },
 ]
 
 
 const wordText = document.querySelector(".word");
 hintText = document.querySelector(".hint span");
-inputField = document.querySelector(".input");
+inputField = document.querySelector("input");
 refreshBtn = document.querySelector(".refresh-word");
 checkBtn = document.querySelector(".check-word");
+
 let correctWord;
 
 const initGame = () => {
@@ -141,8 +152,8 @@ initGame();
 
 const checkWord = () => {
     let userWord = inputField.value.toLocaleLowerCase();
-    console.log(userWord);
-    if(userWord !== correctWord) return alert('oops! $(userWord) is not a correct word')
+    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not acorrect word`);
+    
 }
 
 refreshBtn.addEventListener("click", initGame);
