@@ -101,7 +101,7 @@ body{
     margin-left: 5px;
 }
 
-@media screen and (max-width:410px) {
+@media screen and (max-width:390px) {
     body{
         display: flex;
         flex-direction: column;
@@ -116,7 +116,7 @@ body{
     }
     .word{
         font-size: 20px;
-        letter-spacing: 5px;
+        letter-spacing: 6px;
         margin: 0;
     }
 
@@ -125,6 +125,10 @@ body{
     }
 
     .content .details{
+        margin: 0;
+    }
+
+    .container .content{
         margin: 0;
     }
 }
