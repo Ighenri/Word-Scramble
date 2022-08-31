@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
@@ -125,7 +126,7 @@ body{
     }
 
     .content .details{
-        margin: 0;
+        margin: 5px;
     }
 
     .container .content{
@@ -133,4 +134,3 @@ body{
     
     }
 }
-
