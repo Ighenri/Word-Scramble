@@ -110,13 +110,13 @@ body{
     }
 
     .container{
-        width: 390px;
+        width: 380px;
        
        
     }
     .word{
-        font-size: 25px;
-        letter-spacing: 10px;
+        font-size: 20px;
+        letter-spacing: 5px;
         margin: 0;
     }
 
