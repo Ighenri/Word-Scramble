@@ -117,10 +117,15 @@ body{
     .word{
         font-size: 25px;
         letter-spacing: 10px;
+        margin: 0;
     }
-    
+
     .details p{
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .content .details{
+        margin: 0;
     }
 }
 
