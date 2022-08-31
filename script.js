@@ -146,15 +146,23 @@ const initGame = () => {
     wordText.innerText = wordArray.join(""); //passing shuffled word as word text
     hintText.innerText = randomObj.hint; // passing random object hint as hint text
     correctWord = randomObj.word.toLowerCase(); // passing random word to correctword
+    inputField.value = "";
+    inputField.setAttribute("maxlength", correctWord.length); // setting input maxlenght attr value to word lenght
     console.log(randomObj);
 } 
 initGame();
 
 const checkWord = () => {
-    let userWord = inputField.value.toLocaleLowerCase();
-    if(!userWord) return alert(`Please enter a word check`)
+    let userWord = inputField.value.toLocaleLowerCase(); // getting user value
+
+    if(!userWord) return alert(`Please enter a word check`) // If user didn't enter anything
+
+    // if user word doesn't matched with the correct word
     if(userWord !== correctWord) return alert(`Oops! ${userWord} is not acorrect word`);
+
+     // if above two if conditions are failed then show congrats alert because user word is correct
     alert(`Congrats! ${userWord.toUpperCase()} is a correct word`);
+    initGame();
     
 }
 
