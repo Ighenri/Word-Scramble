@@ -101,7 +101,7 @@ body{
     margin-left: 5px;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:410px) {
     body{
         display: flex;
         flex-direction: column;
@@ -110,18 +110,9 @@ body{
     }
 
     .container{
-        max-width: 390px;
+        width: 390px;
        
     }
     
 }
 
-@media screen and (orientation: landscape) {
-    .container{
-        max-width: 600px;
-       
-    }
-    body{
-        height: fit-content
-    }
-}
