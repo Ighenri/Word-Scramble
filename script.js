@@ -174,7 +174,7 @@ const checkWord = () => {
     if(!userWord) return alert(`Please enter a word check`) // If user didn't enter anything
 
     // if user word doesn't matched with the correct word
-    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not acorrect word`);
+    if(userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`);
 
      // if above two if conditions are failed then show congrats alert because user word is correct
     alert(`Congrats! ${userWord.toUpperCase()} is a correct word`);
